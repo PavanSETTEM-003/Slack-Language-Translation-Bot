@@ -1,4 +1,4 @@
-# Slack Translation Bot 🌍
+# Slack Language Translation Bot 🤖
 
 A Slack bot that provides real-time message translation between multiple languages using Google's Gemini AI API.
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Slack App Setup
-1. Create a Slack App at [api.slack.com](https://api.slack.com/apps)
+1. Create a Slack App at <a href="https://api.slack.com/apps" target="_blank">api.slack.com</a>
 2. **OAuth & Permissions** - Add Bot Token Scopes:
    - `chat:write`, `chat:write.public`, `channels:read`, `groups:read`, `im:read`, `mpim:read`, `users:read`
 3. **Event Subscriptions** - Enable and set URL to `https://your-domain.ngrok.io/slack/events`
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 5. Install app to workspace and copy Bot Token + Signing Secret
 
 ### 3. Google Gemini API
-1. Create project at [Google AI Studio](https://aistudio.google.com/)
+1. Create project at <a href="https://aistudio.google.com/" target="_blank">Google AI Studio</a>
 2. Enable "Generative Language API"
 3. Create API key
 
@@ -63,6 +63,17 @@ python interactions.py
 2. First-time users select their preferred language from dropdown
 3. Messages are automatically translated for users with different language preferences
 4. Translations appear as private messages only you can see
+
+
+
+## Demo Video :cinema: 
+
+Watch the bot in action:
+
+https://github.com/user-attachments/assets/e97fbb41-307a-4036-b67d-9390e0a84458
+
+
+
 
 ## File Structure 📁
 
